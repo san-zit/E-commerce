@@ -3,8 +3,10 @@
     justify-content: space-around;
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
+    
 
 }
+
 .nav-logo{
     display: flex;
     align-items: center;
@@ -30,7 +32,7 @@
     align-items: center;
     justify-content: center;
     gap: 3px;
-    cursor: pointer;
+
 }
 .nav-menu hr{
     border: none;
@@ -76,4 +78,10 @@
     font-size: 14px;
     background: red;
     color: white;
+}
+/* to remove the underldine from nav bar menus  */
+.nav-menu a,
+.nav-login-cart a {
+  text-decoration: none;
+  color: inherit; /* Optional: to prevent blue link color */
 }
